@@ -6,8 +6,8 @@
 
 Findes ikke i noget standardbibliotek
 
-- connect     :
-- isConnected : transitiv
+- void connect(A,B)     : dette er en dynamisk operation
+- boolean isConnected(A,B) : dette er en "transitiv" operation
 
 
 
