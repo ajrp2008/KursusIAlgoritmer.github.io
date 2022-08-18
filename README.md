@@ -32,3 +32,13 @@ public interface UF{
 
 ```
 
+En default implementation af "isConnected":
+
+```java
+
+  public boolean isConnected(int a, int b){
+    return find(a) == find(b);
+  }
+
+```
+
