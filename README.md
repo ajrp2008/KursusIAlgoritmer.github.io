@@ -16,3 +16,19 @@
 
 ## Lav en "foren og find" datastruktur !!
 
+```java
+
+public interface UF{
+
+  public UF(int n);
+  
+  public void union(int a, int b);
+  
+  public int find(int a);
+  
+  public boolean isConnected(int a, int b)
+
+}
+
+```
+
