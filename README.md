@@ -88,11 +88,14 @@ Det vi tæller er antal gange vi tilgår hukommelsen - i vores tilfælde er dett
 ## Foren N tager N^2 tid
 
 ------------------------------------------------------------------------------------------------------------
-
-## VIDEO TID 42:43
-
-------------------------------------------------------------------------------------------------------------
-
 # Hurtig-forening - quick union
+
+
+
+## VIDEO TID 46:50
+
+***CITAT TID 46: 50***
+***EN DATASTRUKTUR ER TILSTANDEN OG DE UNDERLIGGENDE ALGORITMER DER ER NØDVENDIGE FOR AT ÆNDRE DEN TILSTAND***
+
 
 
