@@ -55,4 +55,4 @@ https://editor.p5js.org/ajrp/collections/nn03rywN0
 
 Her er mit første forsøg på at lave "p5js kode" til union-find:
 
-<iframe src="https://editor.p5js.org/ajrp/full/EliBGtfq7"></iframe>
+<iframe width="600" height="315" src="https://editor.p5js.org/ajrp/full/EliBGtfq7"></iframe>
