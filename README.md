@@ -47,6 +47,12 @@ En default implementation af "isConnected":
 - Array af heltal id[] med længde N
 - fortolkning id[p] er ID'et for komponenten (sammenhængskomponenten) der  
 
-Her er mit første forsøg på at lave "p5js kode" til union-find:
+
+Her er en collection af mit kode arbejde til algoritmer kuset....
 
 https://editor.p5js.org/ajrp/collections/nn03rywN0
+
+
+Her er mit første forsøg på at lave "p5js kode" til union-find:
+
+<iframe src="https://editor.p5js.org/ajrp/full/EliBGtfq7"></iframe>
