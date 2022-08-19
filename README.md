@@ -97,5 +97,7 @@ Det vi tæller er antal gange vi tilgår hukommelsen - i vores tilfælde er dett
 ***CITAT TID 46: 50***
 ***EN DATASTRUKTUR ER TILSTANDEN OG DE UNDERLIGGENDE ALGORITMER DER ER NØDVENDIGE FOR AT ÆNDRE DEN TILSTAND***
 
+**Citat fortsættes...***
+***Lidt ligesom et objekt, med data og dertilhørende metoder***
 
 
