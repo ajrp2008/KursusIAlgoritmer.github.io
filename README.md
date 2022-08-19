@@ -83,3 +83,4 @@ function union(a, b) {
 | ------| ----- | ---- | --------- |
 | N     | N     | 1    | 1         |
 
+Det vi tæller er antal gange vi tilgår hukommelsen - i vores tilfælde er dette hvornår vi læser eller skriver til vores array
