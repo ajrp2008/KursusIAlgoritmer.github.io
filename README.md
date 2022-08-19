@@ -45,7 +45,7 @@ En default implementation af "isConnected":
 
 ```
 ------------------------------------------------------------------------------------------------------------
-## Hurtig-find implementation af union-find ...
+# Hurtig-find implementation af union-find ...
 
 - Array af heltal id[] med længde N
 - fortolkning id[p] er ID'et for komponenten (sammenhængskomponenten) der  
@@ -77,7 +77,7 @@ function union(a, b) {
 }
 ```
 ------------------------------------------------------------------------------------------------------------
-# Kørselstid quick-find
+## Kørselstid quick-find
 
 | opret | foren | find | forbundne |
 | ------| ----- | ---- | --------- |
@@ -89,6 +89,10 @@ Det vi tæller er antal gange vi tilgår hukommelsen - i vores tilfælde er dett
 
 ------------------------------------------------------------------------------------------------------------
 
-# VIDEO TID 42:43
+## VIDEO TID 42:43
 
 ------------------------------------------------------------------------------------------------------------
+
+# Hurtig-forening - quick union
+
+
