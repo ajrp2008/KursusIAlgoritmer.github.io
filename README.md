@@ -86,3 +86,9 @@ function union(a, b) {
 Det vi tæller er antal gange vi tilgår hukommelsen - i vores tilfælde er dette hvornår vi læser eller skriver til vores array
 
 ## Foren N tager N^2 tid
+
+------------------------------------------------------------------------------------------------------------
+
+# VIDEO TID 42:43
+
+------------------------------------------------------------------------------------------------------------
