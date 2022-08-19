@@ -41,8 +41,8 @@ En default implementation af "isConnected":
   }
 
 ```
-
-## Hurtig-find
+------------------------------------------------------------------------------------------------------------
+## Hurtig-find implementation af union-find ...
 
 - Array af heltal id[] med længde N
 - fortolkning id[p] er ID'et for komponenten (sammenhængskomponenten) der  
