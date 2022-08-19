@@ -101,3 +101,4 @@ Det vi tæller er antal gange vi tilgår hukommelsen - i vores tilfælde er dett
 ***Lidt ligesom et objekt, med data og dertilhørende metoder***
 
 
+## VIDEO TID 49:15
