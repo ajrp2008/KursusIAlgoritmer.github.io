@@ -53,9 +53,28 @@ En default implementation af "isConnected":
 
 Her er en collection af mit kode arbejde til algoritmer kuset....
 
-https://editor.p5js.org/ajrp/collections/nn03rywN0
+[https://editor.p5js.org/ajrp/collections/nn03rywN0](https://editor.p5js.org/ajrp/collections/nn03rywN0)
 
+Her er mit min "p5js kode" til quick-find :
 
-Her er mit første forsøg på at lave "p5js kode" til union-find:
+```javascript
+function union(a, b) {
+  //første ide : Erstate alle indgange der er lig "ids[a]" med "ids[b]"
+  
+  //indsætter elementer hvis de ikke eksisterer --- nødvendigt fordi jeg starter med ukendt længde modsat bog
+  ids[a] = ids[a] == undefined ? a : ids[a];
+  ids[b] = ids[b] == undefined ? b : ids[b];
 
-<iframe width="600" height="400" src="https://editor.p5js.org/ajrp/full/EliBGtfq7"></iframe>
+  //Dette retter fejlen fra version2 - vi husker ID'er inden gennemløb
+  let idA = ids[a];
+  let idB = ids[b];
+
+  for (let i = 0; i < ids.length; i++) {
+    if (ids[i] == idB) {
+      ids[i] = idA; //alle andre idB ID'er sættes til idA
+    }
+  }
+}
+```
+------------------------------------------------------------------------------------------------------------
+
