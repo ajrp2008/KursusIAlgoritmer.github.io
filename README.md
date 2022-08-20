@@ -102,3 +102,35 @@ Det vi tæller er antal gange vi tilgår hukommelsen - i vores tilfælde er dett
 
 
 ## VIDEO TID 49:15
+
+mit forslag til kode der implementerer quick-union :
+
+```javascript
+function findRoot(a){
+  
+  if(ids[a] == undefined) return;  //hvis ikke a eksisterer stop!
+  
+  while(a!=ids[a]){
+    a = ids[a];    
+  }
+ 
+  return a;
+}
+
+function union(a, b) {  
+  //indsætter elementer hvis de ikke eksisterer --- nødvendigt fordi jeg starter med ukendt længde modsat bog
+  ids[a] = ids[a] == undefined ? a : ids[a];
+  ids[b] = ids[b] == undefined ? b : ids[b];
+
+  rootA  = findRoot(a); 
+  rootB  = findRoot(b);
+  
+  ids[rootA] = rootB;
+  
+}
+
+
+function isConnected(a, b) {
+  return findRoot(a) === findRoot(b);
+}
+```
