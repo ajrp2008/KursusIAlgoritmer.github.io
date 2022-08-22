@@ -149,3 +149,10 @@ function isConnected(a, b) {
   return findRoot(a) === findRoot(b);
 }
 ```
+
+------------------------------------------------------------------------------------------------------------
+## Kørselstid quick-union
+
+| opret | foren | find | forbundne |
+| ------| ----- | ---- | --------- |
+| N     | N     | N    | N         |
