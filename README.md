@@ -137,6 +137,9 @@ function union(a, b) {
   rootA  = findRoot(a); 
   rootB  = findRoot(b);
   
+  //man kunne nøjes med at sætte den ene til et pege på den anden ... men træet vil vokse -
+  //og der vil da være størrer omkostninger forbundet ved at finde roden senere
+  
   ids[rootA] = rootB;
   
 }
