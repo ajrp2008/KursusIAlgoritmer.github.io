@@ -58,6 +58,13 @@ Her er en collection af mit kode arbejde til algoritmer kuset....
 Her er mit min "p5js kode" til quick-find :
 
 ```javascript
+
+
+function find(a) {
+  return ids[a];
+}
+
+
 function union(a, b) {
   //første ide : Erstate alle indgange der er lig "ids[a]" med "ids[b]"
   
@@ -75,6 +82,11 @@ function union(a, b) {
     }
   }
 }
+
+function isConnected(a, b) {
+  return find(a) === find(b);
+}
+
 ```
 ------------------------------------------------------------------------------------------------------------
 ## Kørselstid quick-find
