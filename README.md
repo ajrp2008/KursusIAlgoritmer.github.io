@@ -176,3 +176,6 @@ Når man senere skal søge i træet vil det ikke tage lige så længe
 ***VIGTIGT : her menes der ikke højde men antal elementer***
 
 ***SÆTNING : DYBDEN AF ENHVER KNUDE X ER HØJEST lg2(N)***
+
+
+## VIDEO TID 1:19:50
