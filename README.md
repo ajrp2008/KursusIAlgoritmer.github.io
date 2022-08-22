@@ -166,3 +166,9 @@ function isConnected(a, b) {
 ## Hurtig forening er defekt
 - træerne kan i værste fald blive lige så høje som antallet af elementer
 - find (og dermed også foren) er for dyr (op til n arrayadgange)
+
+------------------------------------------------------------------------------------------------------------
+# Forbedring quick-union
+
+få det lille træ til at pege på det store træs rod...     
+Når man senere skal søge i træet vil det ikke tage lige så længe
