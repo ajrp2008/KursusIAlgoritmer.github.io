@@ -156,3 +156,13 @@ function isConnected(a, b) {
 | opret | foren | find | forbundne |
 | ------| ----- | ---- | --------- |
 | N     | N     | N    | N         |
+
+------------------------------------------------------------------------------------------------------------
+
+## Hurtig find er defekt 
+- forening er for dyr ( n arrayadgange)
+- træer er flade - men det er dyrt
+
+## Hurtig forening er defekt
+- træerne kan i værste fald blive lige så høje som antallet af elementer
+- find (og dermed også foren) er for dyr (op til n arrayadgange)
