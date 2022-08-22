@@ -171,9 +171,8 @@ function isConnected(a, b) {
 # Forbedring quick-union
 
 få det lille træ til at pege på det store træs rod...     
+Når man senere skal søge i træet vil det ikke tage lige så længe
 
 ***VIGTIGT : her menes der ikke højde men antal elementer***
-
-Når man senere skal søge i træet vil det ikke tage lige så længe
 
 ***SÆTNING : DYBDEN AF ENHVER KNUDE X ER HØJEST lg2(N)***
