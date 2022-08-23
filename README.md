@@ -182,8 +182,7 @@ Når man senere skal søge i træet vil det ikke tage lige så længe
 - SÆTNING : DYBDEN AF ENHVER KNUDE X ER HØJEST lg(N)
 lg: er 2-tals logaritmen
 
-+ Bevis:
-+
++ BEVIS:
 + 1.) Når en knudes dybde stiger er det fordi den bliver forenet med et andet træ
 + 2.) Når en knudes dybde stiger er det med 1 fordi roden af det ene træ T1 sættes fast på roden af det andet T2
 + 3.) Hver gang to træer forenes bliver størrelsen mindst dobbelt så stor som det mindste træ
