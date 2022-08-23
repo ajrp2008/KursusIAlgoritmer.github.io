@@ -236,3 +236,15 @@ public int find(int a){
 }
 
 ```
+
+```diff
+
+-  Vægtet hurtig-forening med vejforkortning : amortiseret analyse
+lg. : er 2-tals logaritmen
+lg* : er antal gange vi skal tage lg for at nå til 1
+
+- SÆTNING:
+- Enhver sekvens af M operationer på N elementer  koster <= c(N+M lg*(N)) arrayadgange
+- analyse : kan forbedres til N + M alpha (m,N)
+- simpel algoritme med fascinerende matematik
+```
