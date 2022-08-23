@@ -248,3 +248,43 @@ lg* : er antal gange vi skal tage lg for at nå til 1
 - analyse : kan forbedres til N + M alpha (m,N)
 - simpel algoritme med fascinerende matematik
 ```
+
+# AMORTISERET tid 1:34:16
+
+Citat :  
+
+Robust måde at sig den gennemsnitlige udførselstid ... kan være uheldig hvis man siger "den gennemsnitlige udførselstid" at den vil være fuldstændigt åndsvag stor ... her siger man "det kan ikke ske" ... man kan kun få en dyr operation hvis man har en masse billige operationer, der sparer op til den dyre operation.
+
+Gennemsnit kan skjule en masse grimme ting. Amortiseret kan ikke skjule grimme ting. Vi er garanteret...
+
+------------------------------------------------------------------------------------------------------------
+
+Ingen lineær foren_og_find men tæt på...'
+
+# OPSUMMERING
+
+M er antal operationer  
+N er antal elementer. 
+
+| algoritme | værste tid |
+| ------ | --------- |
+| hutig -find     | M*N |
+| hutig -find     | M*N |
+| vægtet hurtig forening | N + M*lg(N) |
+| hutig forening + vejforkortning | N + M*lg(N) |
+| alt! | N + M*lg*(N) |
+
+TROR DER ER EN FEJL I VIDOEN DER STÅR log OG IKKE lg tid 1:37:44
+------------------------------------------------------------------------------------------------------------
+
+# ANVENDELSE
+
+- Spillet Go
+- Kruskals algoritme til mindst udspændte træ
+- DK statestik def. byområde
+- Perkolation (kan man gennemtrænge - kan væsken sive ned igennem) socialt-netværk, elektricitet eller...
+- der er flere
+
+
+
+
