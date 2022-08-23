@@ -194,3 +194,12 @@ lg: er 2-tals logaritmen
 | ------| --------- |
 | find. | tager tid propertionelt med dybden af p |
 | foren | tager kostant tid, hvis vi har rødderne! ( har vi rødderne?) |
+
+------------------------------------------------------------------------------------------------------------
+## Kørselstid weighted-quick-union
+
+| opret | foren | find | forbundne |
+| ------| ----- | ---- | --------- |
+| N     | lg(N) | lg(N)| lg(N)     |
+
+* *alle omkostninger handler om at finde rødder - da de har dybden højest lg(N) - tager det altså lg(N)* 
