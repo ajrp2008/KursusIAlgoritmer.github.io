@@ -190,4 +190,7 @@ lg: er 2-tals logaritmen
 + 5.) Antallet af foreninger svarer til den maksimale dybde for en knude
 + 6.) Den maksimale dybde for en knude er højest lg(N)
 ```
-
+|operation| tid|
+| ------| --------- |
+| find. | tager tid propertionelt med dybden af p |
+| foren | tager kostant tid, hvis vi har rødderne! ( har vi rødderne?) |
