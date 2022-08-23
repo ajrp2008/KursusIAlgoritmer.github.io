@@ -225,3 +225,14 @@ public int find(int i){
   return i;
 }
 ```
+
+## Meget elegant vejforkortning fra video tid : 1:30:50
+
+```java
+
+public int find(int a){
+  if(a==p[a]) return a;
+ return p[a] = find(p[a]);
+}
+
+```
