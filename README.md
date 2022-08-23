@@ -168,14 +168,20 @@ function isConnected(a, b) {
 - find (og dermed også foren) er for dyr (op til n arrayadgange)
 
 ------------------------------------------------------------------------------------------------------------
-# Forbedring quick-union
+# Forbedring : weighted quick-union
 
 få det lille træ til at pege på det store træs rod...     
 Når man senere skal søge i træet vil det ikke tage lige så længe
 
 ***VIGTIGT : her menes der ikke højde men antal elementer***
 
-***SÆTNING : DYBDEN AF ENHVER KNUDE X ER HØJEST lg2(N)***
 
+## VIDEO TID 1:18:34
+```diff
 
-## VIDEO TID 1:19:50
+- ***SÆTNING : DYBDEN AF ENHVER KNUDE X ER HØJEST lg(N)***
+***lg: er 2-tals logaritmen***
+
++ ## Bevis
+```
+
