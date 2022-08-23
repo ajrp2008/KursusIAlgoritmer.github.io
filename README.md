@@ -205,3 +205,23 @@ lg: er 2-tals logaritmen
 
 ------------------------------------------------------------------------------------------------------------
 # Forbedring : path compression 
+
+Efter vi har rørt en knude ... så sæt den til at pege på roden...
+
+## Varianter :
+
+##1.) To-pas implentation:
+
+en løkke mere
+
+##2.) Enklere ét-pas variant (vejhalvering):
+
+```java
+public int find(int i){
+  while(i != id[i]){
+    id[i]= id[id[i]];   //kun en ekstra linje !!!!!!
+    i = id[i];
+  }
+  return i;
+}
+```
