@@ -210,11 +210,11 @@ Efter vi har rørt en knude ... så sæt den til at pege på roden...
 
 ## Varianter :
 
-##1.) To-pas implentation:
+## 1.) To-pas implentation:
 
 en løkke mere
 
-##2.) Enklere ét-pas variant (vejhalvering):
+## 2.) Enklere ét-pas variant (vejhalvering):
 
 ```java
 public int find(int i){
