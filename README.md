@@ -204,4 +204,4 @@ lg: er 2-tals logaritmen
 * *alle omkostninger handler om at finde rødder - da de har dybden højest lg(N) - tager det altså lg(N)* 
 
 ------------------------------------------------------------------------------------------------------------
-# Forbedring : path compression weighted-quick-union
+# Forbedring : path compression 
