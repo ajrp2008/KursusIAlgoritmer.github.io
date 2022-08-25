@@ -2,6 +2,19 @@
 
 # Chapter 1.5 - Union-find
 
+En bestemt "datastruktur" der hedder "foren-og-find" på dansk. 
+https://www.geeksforgeeks.org/difference-between-abstract-and-concrete-data-structure/. 
+
+
+Foren-og-find løser problemet kaldet "dynamisk sammenhæng"!
+Dynmaisk sammenhængs problemet er defineret ved tre ting:
+- der eksisterer et antal elementer N
+- der findes en "foren" operation , union(a,b)
+- der findes en "er forbunde?" også kaldet "find" operation, connected(a,b)
+
+Probelemet er hvordan implementeres en datastruktur der kan løse problemet
+
+Dens formål
 ----
 https://www.youtube.com/embed/xmbjs-rQf4k
 ----
