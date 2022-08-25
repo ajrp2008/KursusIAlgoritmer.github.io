@@ -1,3 +1,3 @@
 # NOTER : KURSUS I ALGORITMER OG DATASTRUKTURER
 
-(Datastrukturen Unnion-find)[union_finf_1.md]
+[1.del : datastrukturen kaldet uion-find](union_find_1.md)
