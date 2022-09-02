@@ -5,3 +5,12 @@
  - indsætter
  - fjerner
  - eller itererer hen over strukturen
+
+## Stakken - også kaldet stack ...
+
+Vi beskriver den vha. en API:
+
+- push
+- pop
+- isEmpty
+
