@@ -14,3 +14,5 @@ Vi beskriver den vha. en API:
 - pop
 - isEmpty
 
+### linked list implementation
+
