@@ -78,4 +78,10 @@ Vi skal holde øje med på starten og enden på køen ...
 
 ## array implementation
 
+Opgave 1.3.14
 
+# Anvendelser
+
+- undo knappen
+- tilbageknap i browser
+- rekursive funktionskald / eller funktionskald 
