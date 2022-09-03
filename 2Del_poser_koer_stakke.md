@@ -73,6 +73,9 @@ https://www.codiva.io/p/a8c4dc28-1613-4bd3-a111-99a0b7190a92
 
 Vi skal holde øje med på starten og enden på køen ... 
 
->Troels laver et træk i implentationen - hvor der er en dummy-knude som både last og first peger på
+>Troels laver et trick i implentationen - hvor der er en dummy-knude som både last og first peger på
 >
+
+## Kø : også kaldet queue
+
 
