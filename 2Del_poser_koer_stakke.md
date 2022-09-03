@@ -57,5 +57,18 @@ array implementationen kan koste længere tid engang imellem hvis arrayet skal f
 Linked list koster en del plads pga. links imellem objekterne.      
 Array implentationen koster ikke så meget plads.    
 
+-------------------------------------------------------------------------
 
+# Køen : også kaldet Queue
+
+- dequeue
+- enqueue
+- isEmpty
+
+## Linked list imlementation
+
+Vi skal holde øje med på starten og enden på køen ... 
+
+>Troels laver et træk i implentationen - hvor der er en dummy-knude som både last og first peger på
+>
 
