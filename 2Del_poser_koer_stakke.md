@@ -76,6 +76,6 @@ Vi skal holde øje med på starten og enden på køen ...
 >Troels laver et trick i implentationen - hvor der er en dummy-knude som både last og first peger på
 >
 
-## Kø : også kaldet queue
+## array implementation
 
 
