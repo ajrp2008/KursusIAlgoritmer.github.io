@@ -16,3 +16,4 @@ Vi beskriver den vha. en API:
 
 ### linked list implementation
 
+alle operationer vil tage konstant tid
