@@ -48,7 +48,7 @@ Vi har denne invariant, at arrayet er et sted imellem 1/4 og helt fyldt (noget d
 
 |              |                                        |
 | -------------|----------------------------------------|
-| Propersition | Bruger imellem (N og 32 N bytes |
+| Propersition | Bruger imellem (8N og 32 N bytes) </br> 8N når den er fuld </br> 32N når den er kvart fuld  |
 
 
 
