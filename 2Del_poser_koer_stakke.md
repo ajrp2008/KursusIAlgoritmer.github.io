@@ -85,3 +85,6 @@ Opgave 1.3.14
 - undo knappen
 - tilbageknap i browser
 - rekursive funktionskald / eller funktionskald 
+- aritmetisk expression evaluation * 
+
+Eksempel.... Dijgsras two stack problem
