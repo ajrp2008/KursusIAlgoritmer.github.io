@@ -51,5 +51,11 @@ Vi har denne invariant, at arrayet er et sted imellem 1/4 og helt fyldt (noget d
 | Propersition | Bruger imellem (8N og 32 N bytes) </br> 8N når den er fuld </br> 32N når den er kvart fuld  |
 
 
+## array implementation vs. linked list implementation
+linked list giver os en garanteret konstant tid.     
+array implementationen kan koste længere tid engang imellem hvis arrayet skal forøges, men ikke så ofte! (amortisered konstant).      
+Linked list koster en del plads pga. links imellem objekterne.      
+Array implentationen koster ikke så meget plads.    
+
 
 
