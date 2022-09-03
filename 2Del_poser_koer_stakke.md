@@ -17,7 +17,7 @@ Vi beskriver den vha. en API:
 - isEmpty
 
 ### linked list implementation
-|  |                                        |
+|              |                                        |
 | -------------|----------------------------------------|
 | Propersition | Alle operationer vil tage konstant tid |
 
@@ -43,6 +43,12 @@ istedet bør man først halvere når arrayetr er kvart fuldt.
 |pop   | 1.    |N     |1         |
 |size  | 1.    |1     |1         |
 
+
+Vi har denne invariant (noget der forbliver konstant hele tiden):
+
+|              |                                        |
+| -------------|----------------------------------------|
+| Propersition | Bruger imellem (N og 32 N bytes |
 
 
 
