@@ -8,7 +8,7 @@
 
 -------------------------------------
 
-## Stakken - også kaldet stack ...
+# Stakken - også kaldet stack ...
 
 Vi beskriver den vha. en API:
 
