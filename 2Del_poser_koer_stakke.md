@@ -17,8 +17,9 @@ Vi beskriver den vha. en API:
 - isEmpty
 
 ### linked list implementation
-
-Proposition: alle operationer vil tage konstant tid
+|  |                                        |
+| -------------|----------------------------------------|
+| Propersition | Alle operationer vil tage konstant tid |
 
 Proposition: En stak med N elementer koster ca. 40 N bytes 
 16 bytes overhead (moderne java 12 bytes), 8 bytes inner class, ... 
@@ -41,4 +42,8 @@ istedet bør man først halvere når arrayetr er kvart fuldt.
 |push  | 1.    |N     |1         |
 |pop   | 1.    |N     |1         |
 |size  | 1.    |1     |1         |
+
+
+
+
 
