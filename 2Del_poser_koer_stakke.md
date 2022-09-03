@@ -29,4 +29,9 @@ Det er vigtigt at udtænke en metode for hvordan man forstørrer sit array
 der ikke koster for meget!
 
 
+>Ved at fordoble længden på vores array, hver gang der er overløb - koster det mindst muligt tid
+>Omkostninger ved at indsætte 10-elementer i et størrelse 2 array:
+>> 1 (1stk-2size) + 1 (2stk-2size) + 3 (3stk-4size) + 1 (4stk-4size) + 5 +...
+
+
 
