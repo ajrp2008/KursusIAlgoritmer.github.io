@@ -69,6 +69,7 @@ Array implentationen koster ikke så meget plads.
 - isEmpty
 
 ## Linked list imlementation
+https://www.codiva.io/p/a8c4dc28-1613-4bd3-a111-99a0b7190a92
 
 Vi skal holde øje med på starten og enden på køen ... 
 
