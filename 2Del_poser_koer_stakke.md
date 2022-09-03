@@ -44,7 +44,7 @@ istedet bør man først halvere når arrayetr er kvart fuldt.
 |size  | 1.    |1     |1         |
 
 
-Vi har denne invariant (noget der forbliver konstant hele tiden):
+Vi har denne invariant, at arrayet er et sted imellem 1/4 og helt fyldt (noget der forbliver konstant hele tiden):
 
 |              |                                        |
 | -------------|----------------------------------------|
