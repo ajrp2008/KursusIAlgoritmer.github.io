@@ -26,8 +26,8 @@ Proposition: En stak med N elementer koster ca. 40 N bytes
 
 ### array implementation
 
-https://www.codiva.io/p/87739aea-4f21-4f61-8d1b-3e91e07cc6ff
-
+[https://www.codiva.io/p/87739aea-4f21-4f61-8d1b-3e91e07cc6ff](https://www.codiva.io/p/87739aea-4f21-4f61-8d1b-3e91e07cc6ff
+)
 
 Det er vigtigt at udtænke en metode for hvordan man forstørrer sit array
 der ikke koster for meget!
