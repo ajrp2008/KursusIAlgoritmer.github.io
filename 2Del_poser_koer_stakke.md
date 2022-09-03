@@ -35,3 +35,10 @@ der ikke koster for meget!
 Når man fjerner elementer fra sit array vil det være for omkostningsfuldt at halvere ved halvt fuldt... 
 istedet bør man først halvere når arrayetr er kvart fuldt.   
 
+|      | best  |worst |amortized |
+| ---- | ----- |------|----------|
+|constr| 1.    |1     |1         |
+|push  | 1.    |N     |1         |
+|pop   | 1.    |N     |1         |
+|size  | 1.    |1     |1         |
+
