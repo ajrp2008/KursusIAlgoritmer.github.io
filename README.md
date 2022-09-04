@@ -8,3 +8,6 @@
 
 [2.del : poser, køer og stakke](2Del_poser_koer_stakke.md)
 
+----------------
+
+[3.del : algoritme analyse](3Del_algoritme_analyse.md)
