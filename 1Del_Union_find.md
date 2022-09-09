@@ -2,8 +2,8 @@
 
 # Chapter 1.5 - Union-find
 
-En bestemt "datastruktur" der hedder "foren-og-find" på dansk. 
-https://www.geeksforgeeks.org/difference-between-abstract-and-concrete-data-structure/. 
+En bestemt "datastruktur" der hedder "foren-og-find" på dansk.
+https://www.geeksforgeeks.org/difference-between-abstract-and-concrete-data-structure/.
 
 
 Foren-og-find løser problemet kaldet "dynamisk sammenhæng"!
@@ -36,11 +36,11 @@ https://www.youtube.com/embed/xmbjs-rQf4k
 public interface UF{
 
   public UF(int n);
-  
+
   public void union(int a, int b);
-  
+
   public int find(int a);
-  
+
   public boolean isConnected(int a, int b)
 
 }
@@ -79,7 +79,7 @@ function find(a) {
 
 function union(a, b) {
   //første ide : Erstate alle indgange der er lig "ids[a]" med "ids[b]"
-  
+
   //indsætter elementer hvis de ikke eksisterer --- nødvendigt fordi jeg starter med ukendt længde modsat bog
   ids[a] = ids[a] == undefined ? a : ids[a];
   ids[b] = ids[b] == undefined ? b : ids[b];
@@ -127,17 +127,21 @@ Det vi tæller er antal gange vi tilgår hukommelsen - i vores tilfælde er dett
 
 ## VIDEO TID 49:15
 
+***MEGET VIGTIG REMINDER .... NÅR TO ELEMENTER p OG q SKAL FORENES ER DET NØDVENDIGT AT FÅ DEN ENES ROD TIL AT PEGE PÅ DEN ANDENS ROD!!!!***    
+***HVIS BARE MAN SKIFTER p's TIL AT PEGE PÅ DEN ANDEN KAN DEN MIDSTE DET FORBINDELSE DEN HAR TIL DENS OPRINDELIGE KOMPONENT*** 
+
+
 mit forslag til kode der implementerer quick-union :
 
 ```javascript
 function findRoot(a){
-  
+
   if(ids[a] == undefined) return;  //hvis ikke a eksisterer stop!
-  
+
   while(a!=ids[a]){
     a = ids[a];    
   }
- 
+
   return a;
 }
 
@@ -146,14 +150,15 @@ function union(a, b) {
   ids[a] = ids[a] == undefined ? a : ids[a];
   ids[b] = ids[b] == undefined ? b : ids[b];
 
-  rootA  = findRoot(a); 
+  rootA  = findRoot(a);
   rootB  = findRoot(b);
-  
+
+  //Er det her rigtigt??????
   //man kunne nøjes med at sætte den ene til et pege på den anden ... men træet vil vokse -
   //og der vil da være størrer omkostninger forbundet ved at finde roden senere
-  
+
   ids[rootA] = rootB;
-  
+
 }
 
 
@@ -171,7 +176,7 @@ function isConnected(a, b) {
 
 ------------------------------------------------------------------------------------------------------------
 
-## Hurtig find er defekt 
+## Hurtig find er defekt
 - forening er for dyr ( n arrayadgange)
 - træer er flade - men det er dyrt
 
@@ -214,10 +219,10 @@ lg: er 2-tals logaritmen
 | ------| ----- | ---- | --------- |
 | N     | lg(N) | lg(N)| lg(N)     |
 
-* *alle omkostninger handler om at finde rødder - da de har dybden højest lg(N) - tager det altså lg(N)* 
+* *alle omkostninger handler om at finde rødder - da de har dybden højest lg(N) - tager det altså lg(N)*
 
 ------------------------------------------------------------------------------------------------------------
-# Forbedring : path compression 
+# Forbedring : path compression
 
 Efter vi har rørt en knude ... så sæt den til at pege på roden...
 
@@ -277,7 +282,7 @@ Ingen lineær foren_og_find men tæt på...'
 # OPSUMMERING
 
 M er antal operationer  
-N er antal elementer. 
+N er antal elementer.
 
 | algoritme | værste tid |
 | ------ | --------- |
@@ -297,7 +302,3 @@ TROR DER ER EN FEJL I VIDOEN DER STÅR log OG IKKE lg tid 1:37:44
 - DK statestik def. byområde
 - Perkolation (kan man gennemtrænge - kan væsken sive ned igennem) socialt-netværk, elektricitet eller...
 - der er flere
-
-
-
-
