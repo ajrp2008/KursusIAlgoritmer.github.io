@@ -1,3 +1,25 @@
+Inden vi begynder bør man kigge et øjeblik på implementationen af quick-union s.224
+
+find operationen: Det ses her at hver "rekursion" bliver lavet 2 array access, undtagen når vi når roden, hvor det kun koster 1 array access
+public int find(int p){
+  while( p! = id[p]) p = id[p];
+  return p;
+}
+
+union operationen: Det ses at en forening koster find(p) tid + find(q) tid og 1
+public void union(int p, int q){
+  int i = find(p);
+  int j = find(q);
+  if(i == j) return;
+  id[i] = j;
+  count--;
+}
+
+
+
+
+
+
  i      0 1 2 3 4 5 6 7 8 9
  --------------------------
  id[i]  0 1 2 3 4 5 6 7 8 9
@@ -5,14 +27,117 @@
 --------------------------------------------
  union(9,0)
 
- i      0 1 2 3 4 5 6 7 8 9
- --------------------------
- id[i]  0 1 2 3 4 5 6 7 8 0
-
  0 1 2 3 4 5 6 7 8
  |
  9
 
- union operation "id[9] = id[0]" koster 1 læsning og 1 skrivning
+find 9's rod - den er 9 - koster 1
+find 0's rod - den er 0 - koster 1
+sæt 9's rod til at pege på 0's rod - koster 1
+ialt 3
 
- osv.
+i      0 1 2 3 4 5 6 7 8 9
+--------------------------
+id[i]  0 1 2 3 4 5 6 7 8 0
+
+--------------------------------------------
+ union(3,4)
+
+ 0 1 2 4 5 6 7 8
+ |     |
+ 9     3
+
+find 3's rod - den er 3 - koster 1
+find 4's rod - den er 4 - koster 1
+sæt 3's rod til at pege på 4's rod - koster 1
+ialt 3
+
+i      0 1 2 3 4 5 6 7 8 9
+--------------------------
+id[i]  0 1 2 4 4 5 6 7 8 0
+
+--------------------------------------------
+ union(5,8)
+
+ 0 1 2 4 6 7 8
+ |     |     |
+ 9     3     5
+
+find 5's rod - den er 5 - koster 1
+find 8's rod - den er 8 - koster 1
+sæt 5's rod til at pege på 8's rod - koster 1
+ialt 3
+
+i      0 1 2 3 4 5 6 7 8 9
+--------------------------
+id[i]  0 1 2 4 4 8 6 7 8 0
+
+--------------------------------------------
+ union(7,2)
+
+ 0 1 2 4 6 8
+ |   | |   |
+ 9   7 3   5
+
+find 7's rod - den er 7 - koster 1
+find 2's rod - den er 2 - koster 1
+sæt 7's rod til at pege på 2's rod - koster 1
+ialt 3
+
+i      0 1 2 3 4 5 6 7 8 9
+--------------------------
+id[i]  0 1 2 4 4 8 6 2 8 0
+
+--------------------------------------------
+ union(2,1)
+
+ 0 1 4 6 8
+ | | |   |
+ 9 2 3   5
+   |
+   7
+
+find 2's rod - den er 2 - koster 1 array access
+find 1's rod - den er 1 - koster 1
+sæt 2's rod til at pege på 1's rod - koster 1
+ialt 3
+
+i      0 1 2 3 4 5 6 7 8 9
+--------------------------
+id[i]  0 1 1 4 4 8 6 2 8 0
+
+--------------------------------------------
+ union(5,7)
+
+ 0 1    4 6
+ | |\   |
+ 9 2 8  3
+   | |
+   7 5
+
+find 5's rod - den er 8 - koster 3 array access
+find 7's rod - den er 1 - koster 5
+sæt 5's rod til at pege på 7's rod - koster 1
+ialt 9
+
+i      0 1 2 3 4 5 6 7 8 9
+--------------------------
+id[i]  0 1 1 4 4 8 6 2 1 0
+
+--------------------------------------------
+ union(0,3)
+
+  1    4    6
+  |\   |\
+  2 8  3 0
+  | |    |
+  7 5    9
+
+find 0's rod - den er 0 - koster 1 array access
+find 3's rod - den er 4 - koster 3
+sæt 0's rod til at pege på 3's rod - koster 1
+ialt 5
+
+i      0 1 2 3 4 5 6 7 8 9
+--------------------------
+id[i]  4 1 1 4 4 8 6 2 1 0
