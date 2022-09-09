@@ -1,0 +1,40 @@
+0123456789 index
+0123456789 element
+---------------------------------------------------
+Union(9,0) 
+
+0123456789 index
+0123456789 element
+
+n fra 0 til N
+if(list[n]==list[9]){ list[n] = list[0]; }   
+0123456789 index
+0123456780 element
+9 sammenligninger
+1 indsættelse
+---------------------------------------------------
+union(3-4)
+0123456789 index
+0124456780 element
+9 sammenligninger 
+1 indsættelse
+---------------------------------------------------
+union(5,8)
+0123456789 index
+0124486780 element
+9 sammenligninger 
+1 indsættelse
+---------------------------------------------------
+union(7,2)
+0123456789 index
+0174486780 element
+9 sammenligninger 
+1 indsættelse
+---------------------------------------------------
+union(2,1)
+0123456789 index
+0114486180 element
+9 sammenligninger
+2 indsættelser
+---------------------------------------------------
+
