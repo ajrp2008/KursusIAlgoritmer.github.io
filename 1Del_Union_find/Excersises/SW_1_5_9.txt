@@ -13,8 +13,12 @@ Kan dette "træ" konstrueres ved brug af weighted quick union - algoritmen ??
         9  4
            |
            8
-           
+
+Forklaring 1
 Det der er sat på 6 er umuligt! Det er minimum en komponent bestående af 2 der er sat på en komponent af 1
 Hvis du skulle være muligt ville der være flere forgreninger på 6...
 
-Dybden på træet kan n elementer er højesr lg(n) lg(10) = 
+Forklaring 2
+s229 Propersition H
+Højden på træet kan n elementer er < lg(n) lg(10) = 3.32 
+Men højden på træet er 5 .... Det er umuligt
