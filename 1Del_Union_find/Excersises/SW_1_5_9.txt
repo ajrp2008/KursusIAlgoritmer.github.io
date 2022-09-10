@@ -10,4 +10,10 @@ Kan dette "træ" konstrueres ved brug af weighted quick union - algoritmen ??
   | \   |
   2. 7  5
         | \
-        9
+        9  4
+           |
+           8
+           
+Det der er sat på 6 er umuligt! Det er minimum en komponent bestående af 2 der er sat på en komponent af 1
+-
+Hvis du skulle være muligt ville der være flere forgreninger på 6...
