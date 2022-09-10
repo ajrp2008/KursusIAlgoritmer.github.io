@@ -6,7 +6,7 @@ public int find(int p){
   return p;
 }
 
-UNION operationen: Det ses at en forening koster find(p) tid + find(q) tid og 1
+QUICK-UNION operationen: Det ses at en forening koster find(p) tid + find(q) tid og 1
 public void union(int p, int q){
   int i = find(p);
   int j = find(q);
