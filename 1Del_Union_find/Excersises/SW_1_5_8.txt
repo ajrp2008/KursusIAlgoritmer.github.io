@@ -1,0 +1,24 @@
+public void union(int p, int q){
+  if(id[p]==id[q]) return;
+  
+  for(int i=0 ; i < id.length ; i++)
+    if(id[i] == id[p])
+      id[i] = id[q];
+}
+
+--------------------------------------
+Dette kan give en fejl da man kan ende med at overskrive komponent-id'et i det element man bruger til at lede efter de andre
+
+k       0 1 2 3 4 5 6 7 8 9
+id[k]   0 0 0 1 4 5 6 7 8 9
+
+p=0
+q=3
+
+i = 0, id[i] == id[p] ja så sættes id[i] = 1
+Men nu er id[p] = 1
+
+k       0 1 2 3 4 5 6 7 8 9
+id[k]   1 0 0 1 4 5 6 7 8 9
+
+så resten af 0'erne bliver ikke fundet
