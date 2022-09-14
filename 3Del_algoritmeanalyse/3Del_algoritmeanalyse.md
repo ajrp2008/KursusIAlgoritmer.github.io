@@ -42,3 +42,4 @@ System uafhængigt : Algoritmen + inputtet
 
 System afhængigt : Hardware,  Software compiler osv,  System OS
 
+## 20:23 Hvad tager længst tid 
