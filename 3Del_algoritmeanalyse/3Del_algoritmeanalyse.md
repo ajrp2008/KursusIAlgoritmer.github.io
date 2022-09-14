@@ -25,9 +25,14 @@ A+B+C: (n-1)*(n-2) + (n-2)*(n-3) + ... + 2*1 + 1*0
 Det ender ca i k*n^3
 ```
 
-# Doubling hypothesis
+# Doubling hypothesis - find b
 > Hurtig måde at finde b i når T(N) = a*N^b
 
 ```
 T(2*N)/T(N) = a(2N)^b/aN^b = 2^b
+```
+# find a
+```
+et eksperiment for N = 8000
+51 sek = a * 8000^3 <=> a = 0.988*10^-10
 ```
