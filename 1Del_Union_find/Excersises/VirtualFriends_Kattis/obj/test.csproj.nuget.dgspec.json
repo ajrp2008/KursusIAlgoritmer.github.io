@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andersjuulr.petersen/Desktop/KursusIAlgoritmer.github.io/1Del_Union_find/Excersises/VirtualFriends_Kattis/test.csproj": {}
+    "C:\\Users\\ajrp\\Desktop\\MineRepos\\KursusIAlgoritmer.github.io\\1Del_Union_find\\Excersises\\VirtualFriends_Kattis\\test.csproj": {}
   },
   "projects": {
-    "/Users/andersjuulr.petersen/Desktop/KursusIAlgoritmer.github.io/1Del_Union_find/Excersises/VirtualFriends_Kattis/test.csproj": {
+    "C:\\Users\\ajrp\\Desktop\\MineRepos\\KursusIAlgoritmer.github.io\\1Del_Union_find\\Excersises\\VirtualFriends_Kattis\\test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andersjuulr.petersen/Desktop/KursusIAlgoritmer.github.io/1Del_Union_find/Excersises/VirtualFriends_Kattis/test.csproj",
+        "projectUniqueName": "C:\\Users\\ajrp\\Desktop\\MineRepos\\KursusIAlgoritmer.github.io\\1Del_Union_find\\Excersises\\VirtualFriends_Kattis\\test.csproj",
         "projectName": "test",
-        "projectPath": "/Users/andersjuulr.petersen/Desktop/KursusIAlgoritmer.github.io/1Del_Union_find/Excersises/VirtualFriends_Kattis/test.csproj",
-        "packagesPath": "/Users/andersjuulr.petersen/.nuget/packages/",
-        "outputPath": "/Users/andersjuulr.petersen/Desktop/KursusIAlgoritmer.github.io/1Del_Union_find/Excersises/VirtualFriends_Kattis/obj/",
+        "projectPath": "C:\\Users\\ajrp\\Desktop\\MineRepos\\KursusIAlgoritmer.github.io\\1Del_Union_find\\Excersises\\VirtualFriends_Kattis\\test.csproj",
+        "packagesPath": "C:\\Users\\ajrp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ajrp\\Desktop\\MineRepos\\KursusIAlgoritmer.github.io\\1Del_Union_find\\Excersises\\VirtualFriends_Kattis\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/andersjuulr.petersen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ajrp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
