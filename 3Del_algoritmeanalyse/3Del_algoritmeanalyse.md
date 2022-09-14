@@ -57,3 +57,8 @@ B:   for(int j=i+1 ; j<N ; j++)
 ```
 
 # SIMPLIFIKATION 2 (tilde notation)
+
+
+-------------------------
+
+# Binary search
