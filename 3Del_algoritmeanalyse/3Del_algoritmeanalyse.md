@@ -12,9 +12,10 @@ Vi prøver alle muligheder af
 >>Hvor hvert loop starter på en plads efter den forrige .... 
 
 ```java
-A: for(int i =0; i<N ; i++)
-B:   for(int j=i+1; j<N ; j++)
-C:     for(int k=j+1; k<N; k++)
+//BRUTE FORCE
+A: for(int i =0 ; i<N ; i++)
+B:   for(int j=i+1 ; j<N ; j++)
+C:     for(int k=j+1 ; k<N ; k++)
 
 A:      n
 A+B:   (n-1)       + (n-2)       + ... + 2   + 1
