@@ -36,3 +36,9 @@ T(2*N)/T(N) = a(2N)^b/aN^b = 2^b
 et eksperiment for N = 8000
 51 sek = a * 8000^3 <=> a = 0.988*10^-10
 ```
+# TIDSEKSPERIMENTER
+
+System uafhængigt : Algoritmen + inputtet  
+
+System afhængigt : Hardware,  Software compiler osv,  System OS
+
