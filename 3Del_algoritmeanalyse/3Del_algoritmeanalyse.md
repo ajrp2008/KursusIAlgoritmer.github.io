@@ -46,7 +46,7 @@ System afhængigt : Hardware,  Software compiler osv,  System OS
 
 ## 20:23 Hvad tager længst tid af operationer ... ganske interessant ...
 
-# SIMPLIFIKATION ( eksmepel sum-2)
+# SIMPLIFIKATION 1 (eksempel sum-2)
 ```java
 //BRUTE FORCE
 A: for(int i =0 ; i<N ; i++)
@@ -55,3 +55,5 @@ B:   for(int j=i+1 ; j<N ; j++)
 0 + 1 + ... + (n-1) = binominal(N 2) kan også ses med kvadrattegning
 
 ```
+
+# SIMPLIFIKATION 2 (tilde notation)
