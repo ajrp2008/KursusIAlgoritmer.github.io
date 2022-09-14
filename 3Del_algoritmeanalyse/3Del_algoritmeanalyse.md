@@ -24,6 +24,8 @@ A+B+C: (n-1)*(n-2) + (n-2)*(n-3) + ... + 2*1 + 1*0
 //HVIS MAN LAVER EKSPERIMENTER
 Det ender ca i k*n^3
 ```
+# EKSPERIMENT - KAN INDSKRIVES I DOBBELTLOGARITMISK ARK 
+
 
 # Doubling hypothesis - find b
 > Hurtig måde at finde b i når T(N) = a*N^b
