@@ -21,5 +21,6 @@ A:      n
 A+B:   (n-1)       + (n-2)       + ... + 2   + 1
 A+B+C: (n-1)*(n-2) + (n-2)*(n-3) + ... + 2*1 + 1*0
 
+//HVIS MAN LAVER EKSPERIMENTER
 Det ender ca i k*n^3
 ```
