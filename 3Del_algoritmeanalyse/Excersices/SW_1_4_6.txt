@@ -1,0 +1,20 @@
+a.)
+A: for(int k = n ; k > 0 ; k/=2)
+B: for(int i = 0 ; i < k ; i++)
+A kører lg(n) gange
+B kører hhv. n + n/2 + n/4 + ... + 2 + 1 = 2*N + 1
+Order of growth : N
+
+b.)
+A: for(int k = 1 ; k < n ; k*=2)
+B: for(int i = 0 ; i < k ; i++)
+Det samme ... A kører bare omvendt
+Order of growth : N
+
+c.)
+A: for(int k = 1 ; k < n ; k*=2)
+B: for(int i = 0 ; i < n ; i++)
+A: kører lg(n) gange
+B: For hver gang A kører - kører B N gange = n*lg(n)
+Order of growth : n*lg(n)
+
