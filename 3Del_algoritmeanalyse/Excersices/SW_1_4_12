@@ -1,0 +1,17 @@
+Find all elements that appear in both arrays.
+The running time should be proportional to n in worst case....
+
+I værste fald optælles kun en tæller i for loopet... 
+Dvs. det tager 2*N i værste fald! 
+
+ static void udskrivEnsTal(int[] listA, int[] listB){
+        int i = 0;
+        int j = 0;
+        for( ; i<listA.Length && j<listB.Length ; ){
+            if( i > listA.Length -1 || j > listB.Length - 1 ) return;
+            if(listA[i]==listB[j]){ Console.WriteLine(listA[i]); i++; j++;}
+            else if(listA[i] < listB[j]) i++;
+            else if(listA[i] > listB[j]) j++;
+        }
+        
+    }
