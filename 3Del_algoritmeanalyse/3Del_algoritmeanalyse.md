@@ -1,6 +1,6 @@
 # Del 3 - Algoritme analyse
 
-## 3-sum problemet 
+## 3-sum problemet
 
 hvor mange forskellige kombinationer af 3 heltal i en serie kan give nul ...
 I denne situation antager vi at at : De tre tal skal være forskellige
@@ -9,7 +9,7 @@ I denne situation antager vi at at : De tre tal skal være forskellige
 Vi prøver alle muligheder af
 
 >Vi laver tre nestede loops.    
->>Hvor hvert loop starter på en plads efter den forrige .... 
+>>Hvor hvert loop starter på en plads efter den forrige ....
 
 ```java
 //BRUTE FORCE
@@ -24,7 +24,7 @@ A+B+C: (n-1)*(n-2) + (n-2)*(n-3) + ... + 2*1 + 1*0
 //HVIS MAN LAVER EKSPERIMENTER
 Det ender ca i k*n^3
 ```
-# EKSPERIMENT - KAN INDSKRIVES I DOBBELTLOGARITMISK ARK 
+# EKSPERIMENT - KAN INDSKRIVES I DOBBELTLOGARITMISK ARK
 
 
 # Doubling hypothesis - find b
@@ -60,5 +60,17 @@ B:   for(int j=i+1 ; j<N ; j++)
 
 
 -------------------------
-
+## 44 minutter
 # Binary search
+
+Til at beregne "mid" anvendes dette pga. overlow???
+
+>> min = lo + (hi -lo)/2
+
+istedet for
+
+>> min = (hi + lo)/2
+
+ivariant vi holder styr på
+
+>> hvis key eksisterer så er a[lo] <= key <= a[hi]
