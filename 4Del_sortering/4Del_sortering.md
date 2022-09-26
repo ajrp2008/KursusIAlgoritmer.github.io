@@ -48,6 +48,14 @@ for( i=0 ; i < N ; i++){
                     
 ### Insertion sort : Video 24:44
   
+```java
+//Insertions sort...
+
+//- I iteration i ombyt a[i] med hver størrer element til højre...
+  
+
+```  
+
   
                                       
                                       
