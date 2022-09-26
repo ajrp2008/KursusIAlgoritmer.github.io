@@ -18,7 +18,7 @@ Interface:  Comparable<Item> interface
 Metoden : int compareTo(Item a) 
 v.compareTo(w).    v>w  giver 1 , v<w giver -1 , v==w giver 0
                                       
+Selection sort demo: 
+- I iteration i, find index (min) af mindste element i "ikke sorterede del af arrayet"
+- ombyt a[i] og a[min]
                                       
-
-
-
