@@ -23,3 +23,20 @@ Selection sort demo:
 - ombyt a[i] og a[min]
                                       
 ### Video 16 min.
+ 
+### Video 20 min
+                                     
+```java
+for( i=0 ; i < N ; i++){
+    int min = i;
+  for( j= i+1 ; j<N ; j++){
+    if( less(a[j],a[min]) ) min = j;                
+  }
+  exch( a , i , min );                    
+}                                                                            
+```                                      
+                                      
+                                      
+                                      
+                                      
+                                      
