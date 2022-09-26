@@ -20,9 +20,7 @@ v.compareTo(w).    v>w  giver 1 , v<w giver -1 , v==w giver 0
                                       
 
                                       
-### Selection sort
- 
-### Video 20 min
+### Selection sort : Video 20 min
 
                                       
 ```java
@@ -48,7 +46,9 @@ for( i=0 ; i < N ; i++){
 >Antal ombytninger er det færrest mulige !!!!!!!! : Dvs lineær tid                   
 
                     
-                                      
+### Insertion sort : Video 24:44
+  
+  
                                       
                                       
                                       
