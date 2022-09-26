@@ -40,10 +40,12 @@ for( i=0 ; i < N ; i++){
 }                                                                            
 ```                                      
 
-Køretiden for selection sort er pga. de to for-loops:
-hvis vi tæller antal sammenligninger har vi
-(N-1) + (N-2) + .... + 2 + 1 + 0 = N^2/2 
+Køretiden for selection sort er pga. de to for-loops:     
 
+Hvis vi tæller antal sammenligninger har vi
+(N-1) + (N-2) + .... + 2 + 1 + 0 = N^2/2    
+
+Antal ombytninger er det færrest mulige !!!!!!!!                    
 
                     
                                       
