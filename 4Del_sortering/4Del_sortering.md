@@ -22,3 +22,4 @@ Selection sort demo:
 - I iteration i, find index (min) af mindste element i "ikke sorterede del af arrayet"
 - ombyt a[i] og a[min]
                                       
+### Video 16 min.
