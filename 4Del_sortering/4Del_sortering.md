@@ -43,12 +43,11 @@ for( i=0 ; i < N ; i++){
 >SAMMENLIGNINGER:  
 > Hvis vi tæller antal sammenligninger har vi
 >(N-1) + (N-2) + .... + 2 + 1 + 0 = N^2/2  : Dvs. kvadratisk tid 
-> 
-  ***siger asymptotisk N^2/2 ... men det er vel ikke asymptotisk, men faktisk eksakt???***
+> ***siger asymptotisk N^2/2 ... men det er vel ikke asymptotisk, men faktisk eksakt???***
 >
 >OMBYTNINGER:
 >Antal ombytninger er det færrest mulige !!!!!!!! : Dvs lineær tid                   
-***siger det er færrest mulige men den bytter vel altid N gange??***
+>***siger det er færrest mulige men den bytter vel altid N gange??***
                     
 ### Insertion sort : Video 24:44
   
