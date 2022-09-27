@@ -77,6 +77,9 @@ for( int i = 0 ; i < N ; i++ )
 >dvs. halvt så mange som selection sort...
   
 ****Invertion of pairs???? tid i video 36 min. Det forstår jeg ikke!****
+
+>For partielle sorterede arrays kører insertion sort lineær tid ??!?
+>Er en bygge sten i Javas inbyggede sorterings algoritme....
   
 
   
