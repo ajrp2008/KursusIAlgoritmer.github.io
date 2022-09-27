@@ -18,9 +18,9 @@ Interface:  Comparable<Item> interface
 Metoden : int compareTo(Item a) 
 v.compareTo(w).    v>w  giver 1 , v<w giver -1 , v==w giver 0
                                       
-
+-------------------------------------------------------------------------------------------------------------
                                       
-### Selection sort : Video 20 min
+## Selection sort : Video 20 min
 
                                       
 ```java
@@ -52,8 +52,9 @@ for( i=0 ; i < N ; i++){
 >
 
 ***siger det er færrest mulige men den bytter vel altid N gange??***
-                    
-### Insertion sort : Video 24:44
+
+------------------------------------------------------------------------------------------------------------          
+## Insertion sort : Video 24:44
   
 ```java
 //Insertions sort...
@@ -85,6 +86,12 @@ Forbedringer: Lav ombytningen når vi kender pladsen...
   
 Forbedring: Binær søgning efter rigit plads.... => medfører Ñ*lg(N) sammenligninger.     
 Men stadig kvadratiske antal accesses....
+
+-------------------------------------------------------------------------------------------------------------
+
+## MERGE SORT - Video 43:07
+
+
 
   
   
