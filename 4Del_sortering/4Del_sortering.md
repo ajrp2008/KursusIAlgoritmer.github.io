@@ -54,8 +54,11 @@ for( i=0 ; i < N ; i++){
 //Insertions sort...
 
 //- I iteration i ombyt a[i] med hver størrer element til venstre...
-  
 
+for( int i = 0 ; i < N ; i++ )
+  for(int j = i ; j > 0 ; j--)
+    if( less(a[j] , a[j-1]) exch( a , j , j-1 );
+    else break;  
 ```  
 
   
