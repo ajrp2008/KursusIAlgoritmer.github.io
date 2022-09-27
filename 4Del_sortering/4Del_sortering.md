@@ -38,7 +38,7 @@ for( i=0 ; i < N ; i++){
 }                                                                            
 ```                                      
 
-> Køretiden for selection sort er pga. de to for-loops:     
+> ****Køretiden for selection sort er uafhængig af inputet****   
 >
 >SAMMENLIGNINGER:  
 > Hvis vi tæller antal sammenligninger har vi
