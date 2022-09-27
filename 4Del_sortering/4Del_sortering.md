@@ -43,11 +43,15 @@ for( i=0 ; i < N ; i++){
 >SAMMENLIGNINGER:  
 > Hvis vi tæller antal sammenligninger har vi
 >(N-1) + (N-2) + .... + 2 + 1 + 0 = 1/2*N^2  : Dvs. kvadratisk tid 
-> ***siger asymptotisk 1/2*N^2 ... men det er vel ikke asymptotisk, men faktisk eksakt???***
+> 
+
+***siger asymptotisk 1/2*N^2 ... men det er vel ikke asymptotisk, men faktisk eksakt???***
 >
 >OMBYTNINGER:
 >Antal ombytninger er det færrest mulige !!!!!!!! : Dvs lineær tid                   
->***siger det er færrest mulige men den bytter vel altid N gange??***
+>
+
+***siger det er færrest mulige men den bytter vel altid N gange??***
                     
 ### Insertion sort : Video 24:44
   
@@ -71,6 +75,8 @@ for( int i = 0 ; i < N ; i++ )
 >
 >Forklaring : hver gang man sorterer et element forventes det at det bevæger sig halvvejs ned,
 >dvs. halvt så mange som selection sort...
+  
+****Invertion of pairs???? tid i video 36 min. Det forstår jeg ikke!****
   
 
   
