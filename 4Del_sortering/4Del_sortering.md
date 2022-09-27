@@ -42,8 +42,8 @@ for( i=0 ; i < N ; i++){
 >
 >SAMMENLIGNINGER:  
 > Hvis vi tæller antal sammenligninger har vi
->(N-1) + (N-2) + .... + 2 + 1 + 0 = N^2/2  : Dvs. kvadratisk tid 
-> ***siger asymptotisk N^2/2 ... men det er vel ikke asymptotisk, men faktisk eksakt???***
+>(N-1) + (N-2) + .... + 2 + 1 + 0 = 1/2*N^2  : Dvs. kvadratisk tid 
+> ***siger asymptotisk 1/2*N^2 ... men det er vel ikke asymptotisk, men faktisk eksakt???***
 >
 >OMBYTNINGER:
 >Antal ombytninger er det færrest mulige !!!!!!!! : Dvs lineær tid                   
@@ -65,8 +65,8 @@ for( int i = 0 ; i < N ; i++ )
 >- WORST CASE INPUT : Omvendt sorteret input
 >- BEST CASE INPUT : Rigtigt sorteret input
 >
-> SAMMENLIGNINGER Gennemsnit ~1/4N^2
-> OMBYTNINGER Gennemsnit ~1/4N^2
+> SAMMENLIGNINGER Gennemsnit ~1/4*N^2
+> OMBYTNINGER Gennemsnit ~1/4*N^2
 >
 >Forklaring : hver gang man sorterer et element forventes det at det bevæger sig halvvejs ned,
 >dvs. halvt så mange som selection sort...
