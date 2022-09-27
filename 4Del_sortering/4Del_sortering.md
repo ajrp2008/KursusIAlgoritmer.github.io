@@ -40,11 +40,12 @@ for( i=0 ; i < N ; i++){
 
 > Køretiden for selection sort er pga. de to for-loops:     
 >
->OMBYTNINGER:  
+>SAMMENLIGNINGER:  
 > Hvis vi tæller antal sammenligninger har vi
->(N-1) + (N-2) + .... + 2 + 1 + 0 = N^2/2  : Dvs. kvadratisk tid  
+>(N-1) + (N-2) + .... + 2 + 1 + 0 = N^2/2  : Dvs. kvadratisk tid 
+> siger asymptotisk N^2/2 ... men det er vel ikke asymptotisk, men faktisk eksakt???
 >
->SAMMENLIGNINGER:
+>OMBYTNINGER:
 >Antal ombytninger er det færrest mulige !!!!!!!! : Dvs lineær tid                   
 
                     
