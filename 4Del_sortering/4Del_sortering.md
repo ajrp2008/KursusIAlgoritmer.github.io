@@ -65,7 +65,8 @@ for( int i = 0 ; i < N ; i++ )
 >- WORST CASE INPUT : Omvendt sorteret input
 >- BEST CASE INPUT : Rigtigt sorteret input
 >
-> SAMMENLIGNINGER Gennemsnit ~1/4*N^2
+> SAMMENLIGNINGER Gennemsnit ~1/4*N^2.  
+>  
 > OMBYTNINGER Gennemsnit ~1/4*N^2
 >
 >Forklaring : hver gang man sorterer et element forventes det at det bevæger sig halvvejs ned,
