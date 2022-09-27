@@ -61,7 +61,19 @@ for( int i = 0 ; i < N ; i++ )
     if( less(a[j] , a[j-1]) exch( a , j , j-1 );
     else break;  
 ```  
+> ****Kørselstiden for insertion sort er afhængig af inputtet****
+>- WORST CASE INPUT : Omvendt sorteret input
+>- BEST CASE INPUT : Rigtigt sorteret input
+>
+> SAMMENLIGNINGER Gennemsnit ~1/4N^2
+> OMBYTNINGER Gennemsnit ~1/4N^2
+>
+>Forklaring : hver gang man sorterer et element forventes det at det bevæger sig halvvejs ned,
+>dvs. halvt så mange som selection sort...
+  
 
+  
+  
   
                                       
                                       
