@@ -91,11 +91,57 @@ Men stadig kvadratiske antal accesses....
 
 ## MERGE SORT - Video 43:07
 
-Divide and conquer
+Divide and conquer     
+John Von Neumann .... 
 
 - opdel array i to dele
 - sorter hver halvdel rekursivt
 - sammenflet de to halvdele
+(bliver faktisk ved indtil der kun er enkeltelementer...)
+
+#### Sammenflet operationen er den sværeste
+```
+Trin 1
+a-array : E E G M R A C E R T
+          k
+aux-array:E E G M R | A C E R T
+          i           j
+```
+Da vi ved begge arrays er sorterede
+Er det enten i eller j der er det mindste element i det samlede
+
+```
+Trin 2
+a-array:   A E G M R A C E R T
+             k
+aux-array: E E G M R | A C E R T
+           i             j
+           
+Trin 3
+a-array:   A C G M R A C E R T
+               k
+aux-array: E E G M R | A C E R T
+           i               j           
+
+Trin 4
+a-array:   A C E M R A C E R T
+                 k
+aux-array: E E G M R | A C E R T
+             i             j           
+
+Trin 5
+a-array:   A C E E R A C E R T
+                 k
+aux-array: E E G M R | A C E R T
+               i           j           
+
+Trin 6
+a-array:   A C E E E A C E R T
+                     k
+aux-array: E E G M R | A C E R T
+               i             j           
+
+```
 
 
 
