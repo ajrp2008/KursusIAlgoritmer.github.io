@@ -91,6 +91,12 @@ Men stadig kvadratiske antal accesses....
 
 ## MERGE SORT - Video 43:07
 
+Divide and conquer
+
+- opdel array i to dele
+- sorter hver halvdel rekursivt
+- sammenflet de to halvdele
+
 
 
   
