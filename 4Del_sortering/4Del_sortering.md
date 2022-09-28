@@ -189,7 +189,22 @@ void merge( Comparable[] a, Comparable[] aux, int lo, int mid, int hi){
 
 ```
 
-  
+Der bruges lige meget tid om vi sorterer et array der er omvendt sorteret - hvilket jo er et "slemt tilfælde" for insertion sort ... 
+
+>>Tidskompleksiteten:
+>>N*lg(N)
+>>
+>>Bevis:
+>>Rekursions- eller rekurrenc ligning:
+>>
+>>C(N) <= C(N/2)          + C(N/2)         + N
+>>        venstre halvdel   højre galvdel    sammenflet
+>> for N > 1, med C(1) = 0
+>>
+>>Forenkling af problemet:
+>>D(N) = 2*D(N/2) + N
+ 
+#### TID Video 57:50 ...
   
   
                                       
