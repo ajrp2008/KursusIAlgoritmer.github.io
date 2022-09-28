@@ -143,6 +143,7 @@ aux-array: E E G M R | A C E R T
 
 ```
 
+Når den ene del-liste er tom, flyttes de resterende elementer ind i arrayet...
 
 
   
