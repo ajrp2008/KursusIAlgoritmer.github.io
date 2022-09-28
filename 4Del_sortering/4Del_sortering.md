@@ -145,6 +145,27 @@ aux-array: E E G M R | A C E R T
 
 Når den ene del-liste er tom, flyttes de resterende elementer ind i arrayet...
 
+```java
+void merge( Comparable[] a, Comparable[] aux, int lo, int mid, int low){
+  
+  //kopi
+  for(int k = 0 ; k <= hi ; k++ )  aux[k] = a[k]; 
+  
+  //sammenfletningen  
+  int i = lo ,  j = mid + 1;   
+  for(int k = lo ; k <= hi ; k ++ ){
+    
+    if( i > mid )                 a[k] = aux[j++];
+    else if( j > hi)              a[k] = aux[i++];
+    else if( less(aux[j],aux[i])) a[k] = aux[j++];
+    else                          a[k] = aux[i++];
+    
+  }
+   
+
+}
+
+```
 
   
   
