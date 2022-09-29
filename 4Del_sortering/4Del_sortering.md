@@ -224,7 +224,41 @@ void linearithmic(){
 }
              
 ```
+
+## FORBEDRINGER TIL SORTERINGS IMPLEMENTAIONER
+
+### Javas sorterings implentation
+            
+merge sort indtil 32 elementer ,- så anvendes binær insertion-sort 
+
+### HURTIGERE MERGE:
+
+Hvis den venstre partitionerings højeste element er mindre en edn højres venstre behøves der faktisk ikke at flettes men bar at sammensætte de to arrays... 
+            
   
+---------------------------------------------------------------------------
+
+             
+# COMPLEXITY OF SORTING
+#### Video tid 1:06:25
+             
+> Computational complexity:
+>> Framework to study effciency of algorithms for solving a particular problem X.
+
+> Model of computation
+>> Allowable operations
+
+> Cost model
+>> Operation count(s)
+
+> Upper bound
+>>
+  
+> Lower Bound
+>>
+
+> Optimal algorithm
+
   
                                       
                                       
