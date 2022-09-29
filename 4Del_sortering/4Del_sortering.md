@@ -274,4 +274,21 @@ Enhver sammenlignings baseret sorterings algoritme skal nødvendigvis bruge lg(N
 
 Da merge sort koster N*lg(N) tid ... behøver vi ikke bruge mere tid på at lede efter en bedre algoritme... 
                                       
-                                      
+  
+---------------------------------------------------------------------------
+
+  
+# SORTERING AF SAMME DATA PÅ FORSKELLIGE MÅDER
+
+Man kan bruge en "Comperator" i Java
+
+# BEGREBET : Stabil sortering
+
+Bibeholder relativ orden efter elementer der har samme nøgle !!
+
+Selection sort er ikke stabil...
+  
+
+  
+
+  
