@@ -260,6 +260,18 @@ Hvis den venstre partitionerings højeste element er mindre en edn højres venst
 > Optimal algorithm
 
   
-                                      
+---------------------------------------------------------------------------
+
+Decision tree ... 
+
+sammenligninger i træets forgreninger repræsenterer sorteringer...
+  
+Tre elementer giver 6 blade ...
+
+Træets højde er repræsenterer den værst mulige sammensætning ...
+
+Enhver sammenlignings baseret sorterings algoritme skal nødvendigvis bruge lg(N!) ~ N*lg(N) i værste tilfælde...
+
+Da merge sort koster N*lg(N) tid ... behøver vi ikke bruge mere tid på at lede efter en bedre algoritme... 
                                       
                                       
