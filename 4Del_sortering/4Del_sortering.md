@@ -286,9 +286,13 @@ Man kan bruge en "Comperator" i Java
 
 Bibeholder relativ orden efter elementer der har samme nøgle !!
 
-Selection sort er ikke stabil...
-  
+Insertion sort er stabil...        
 
   
+Selection sort er ikke stabil...     
+Den bytter kun en plads "i" ud med et minumum , men hvis "i" havde en relativ korrekt plads... ville det ødelægge ordenen
+  
+Mergesort er stabil...    
+Merge : hvis to nøgler er ens - tages altid venstre - dette garanterer stabil sortering  
 
   
