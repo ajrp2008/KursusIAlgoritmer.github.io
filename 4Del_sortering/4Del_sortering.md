@@ -188,7 +188,8 @@ void merge( Comparable[] a, Comparable[] aux, int lo, int mid, int hi){
 }
 
 ```
-
+#### Antal sammenligninger merge-sort
+  
 Der bruges lige meget tid om vi sorterer et array der er omvendt sorteret - hvilket jo er et "slemt tilfælde" for insertion sort ... 
 
 >>Tidskompleksiteten:
@@ -205,6 +206,13 @@ Der bruges lige meget tid om vi sorterer et array der er omvendt sorteret - hvil
 >>D(N) = 2*D(N/2) + N
  
 #### TID Video 57:50 ...
+#### Antal access merge-sort
+  
+T <= 6*N*lg(N)
+
+6N : 2N over i et aux-array og 4N for at få dem flettet rigtigt 
+           
+           
   
   
                                       
