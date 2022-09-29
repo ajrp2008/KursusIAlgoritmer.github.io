@@ -213,6 +213,17 @@ T <= 6*N*lg(N)
 6N : 2N over i et aux-array og 4N for at få dem flettet rigtigt 
            
            
+```java
+//En algoritme med følgende struktur tager N*lg(N) tid
+             
+void linearithmic(){
+  if(N==0) return;             
+  linearithmic(N/2);
+  linearithmic(N/2);
+  linear(N);                          
+}
+             
+```
   
   
                                       
