@@ -1,0 +1,13 @@
+Which method runs faster for an array
+with all keys identical,
+selection or insertion sort:
+
+insertion sort laver kun en sammenligning til
+højre for den sorterede del af arrayet for
+at se om det nye element skal "indsættes"
+
+selection sort tjekker hele den usorterede
+del af arrayet for  hver iteration ....
+og er uafhængig af inputtet.
+
+Insertion sort er altså hurtigst...

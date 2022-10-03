@@ -1,0 +1,9 @@
+Wich method rons faster reverse
+selection or insertion sort.
+
+selection sort laver
+sammenligninger (N-1)*N/2
+ombytninger N-1
+
+sammenligninger (N-1)*N/2
+ombytninger (N-1)*N/2

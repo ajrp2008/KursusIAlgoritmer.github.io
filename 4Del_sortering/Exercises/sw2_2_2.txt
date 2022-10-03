@@ -1,0 +1,49 @@
+12 elementer - udskrift fra mergestort-program:
+
+10,11,9,8,7,6,5,4,3,2,1,0,
+9,10,11,8,7,6,5,4,3,2,1,0,
+9,10,11,7,8,6,5,4,3,2,1,0,
+9,10,11,6,7,8,5,4,3,2,1,0,
+6,7,8,9,10,11,5,4,3,2,1,0,
+6,7,8,9,10,11,4,5,3,2,1,0,
+6,7,8,9,10,11,3,4,5,2,1,0,
+6,7,8,9,10,11,3,4,5,1,2,0,
+6,7,8,9,10,11,3,4,5,0,1,2,
+6,7,8,9,10,11,0,1,2,3,4,5,
+0,1,2,3,4,5,6,7,8,9,10,11,
+
+I hver "top-down merge sort" er der følgende kode:
+if(hi<=lo) return
+mid = (hi + lo) /2
+sort(0,mid)
+sort(mid +1, hi)
+merge(lo.mid,hi)
+
+De første kald der indsættes i call-stacken afgøres hvordan "mid" beregnes - og dermed "hi" for de første sort kald....
+Her opskrives hvor "hi" findes i de første sort-kald i call-stacken...
+
+11, 5, 2, 1, 0
+først området 0 til 1
+
+  så    området 2 til 2
+
+        så  området 0 til 2
+
+  så    området 3 til 5
+
+        så området 3 til 4
+
+        så området 5 til 5
+
+læg mærke til at fordi antal af elementer ikke er en potens af to kommer der en grim indeling af merge-områderne....
+
+EA SYQUESTION
+AE SYQUESTION   fra 0 til 1
+AES YQUESTION   fra 2 til 2 og fra 0 til 2
+AES QY UESTION  fra 3 til 4
+AES QUY ESTION  fra 5 til 5 og fra 3 til 5
+AEQSUY ESTION   fra 0 til 5
+AEQSUY ES TION   fra 6 til 7
+AEQSUY EST ION fra 8 til 8 og fra 6 til 8
+AEQSUY EINOST
+AEEINOQSSTUY
