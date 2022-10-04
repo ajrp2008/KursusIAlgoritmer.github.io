@@ -15,3 +15,7 @@
 ----------------
 
 [4.del : Sortering](4Del_sortering/4Del_sortering.md)
+
+----------------
+
+[5.del : Prioritetskø](5Del_Prioritetskoer/5Del_Prioritetskoer.md)
