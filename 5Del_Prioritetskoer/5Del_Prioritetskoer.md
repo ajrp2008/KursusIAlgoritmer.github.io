@@ -137,3 +137,5 @@ private void sink(int k){
 | Impossible  |1       | 1       | 1   |
 
 # Sortering med binary-heap
+
+- 
