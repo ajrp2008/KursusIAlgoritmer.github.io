@@ -138,4 +138,26 @@ private void sink(int k){
 
 # Sortering med binary-heap
 
-- 
+Består af to dele heap-construction og sort-down
+
+### Heap-construction
+
+```java
+  for(int k= N/2 ; k>1 ; k--)
+    sink(a,k,N);
+
+```
+
+### Sort-down
+
+```java
+  while(N>1){
+    exch(a,1,N);  //det sidste element sættes i toppen
+                  //top-elementet er nu sorteret
+    N = N -1;     //vi tæller N ned da heapen er mindre
+    sink(a,1,N);  //finder top-elementets rigtige plads
+  }
+
+```
+
+## Heap construction takes only linear time ???
