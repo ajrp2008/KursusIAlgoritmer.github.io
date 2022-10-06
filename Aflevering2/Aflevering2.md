@@ -1,4 +1,4 @@
-# Obligatorisk aflevering 2 - Onsdag d19/10
+# Obligatorisk aflevering 2 - Onsdag d19/10 eller Mandag d.14/11
 
 Dette er den anden af tre afleveringsopgaver. Den skal løses individuelt, men
 må gerne diskuteres med de andre deltagere i kurset.

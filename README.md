@@ -22,4 +22,4 @@
 
 ----------------
 
-[Aflevering 2 : D.19/10 Onsdag ](Aflevering2/Aflevering2.md)
+[Aflevering 2 : Onsdag d.19/10 eller Mandag d.14/11](Aflevering2/Aflevering2.md)
