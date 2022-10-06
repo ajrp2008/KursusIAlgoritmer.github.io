@@ -1,0 +1,4 @@
+Er et array der er sorteret i omvendt rækkefølge en "max-oriented-heap"
+
+Svar:
+Ja ! Alle de elementer der kommer til højre er mindre end det til venstre og altså mindre end sin "forælder" altså er arrayet max-oriented-heap orden!

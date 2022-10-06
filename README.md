@@ -19,3 +19,7 @@
 ----------------
 
 [5.del : Prioritetskø](5Del_Prioritetskoer/5Del_Prioritetskoer.md)
+
+----------------
+
+[Aflevering 2](Aflevering2/Aflevering2.md)
