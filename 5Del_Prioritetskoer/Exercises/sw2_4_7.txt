@@ -1,0 +1,40 @@
+   1
+ 2    3
+7 6  5 4
+
+
+Det største er på plads 1 næste på plad 2 eller 3 osv.
+
+(i) hvor kan det k'th største element være
+(ii) hvor kan det ikke være
+
+For k= 2,3,4
+
+----------------------------------------------------------------------------------------
+K=2 er 9
+
+   10
+ 9    8
+
+   10
+ 8    9
+
+Kan ikke komme længere ned da det så vil bryde heap-ordenen
+2 forskellige pladser
+---------------------------------------------------------------------------------------
+
+K= 3
+
+  10
+ 9    8    Begge steder her
+7 6  5 4   Eller kan bytte plads med 7 og 6 eller 5 og 4 - hvis vi spejlvender
+
+  10
+ 7    9
+5 6  8 4
+
+6 forskellige pladser
+---------------------------------------------------------------------------------------
+
+K=4
+4 pladser i tredje niveau og 8 pladser i fjerde niveau
