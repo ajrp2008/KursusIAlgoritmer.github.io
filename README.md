@@ -22,4 +22,11 @@
 
 ----------------
 
+[6.del : Symbol tabeller](6Del_Symboltables/6Del_Symboltables.md)
+
+[6.del2: Hash tabeller](6Del_Symboltables/6Del2_HashTables.md)
+
+
+----------------
+
 [Aflevering 2 : Onsdag d.19/10 eller Mandag d.14/11](Aflevering2/Aflevering2.md)
