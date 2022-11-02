@@ -14,15 +14,15 @@ Løsningen:
 ## Del 3: Analyse af udførselstiden som funktion af n
 Den rettede graf er implementeret som en "ajacency list", og "oprettelsestiden" er derfor propertionel med E+V, hvor E er antallet af kanter og V er antallet af knuder. Operationerne "den hurtigste vej" og "den hurtigste tid" er imlementeret som bredde-først-søgninger og udførselstiden for disse er altså ligeledes propertionelle med E+V.
 
-Antallet af kanter består af:
-(1) n-1 input, (2) 4 til liften og (3) mindst 1 og højest n-1 der forbinder enstationerne med liften
-I alt:
->E_max = 2n + 2
->E_min = n + 4    
+Antallet af kanter består af:      
+(1) n-1 input, (2) 4 til liften og (3) mindst 1 og højest n-1 der forbinder enstationerne med liften       
+I alt:     
+>E_max = 2n + 2   
+>E_min = n + 4       
 
-Antallet af knuder vil altid bestå af n input og 4 ekstra til liften, ialt:
->V = n + 4    
+Antallet af knuder vil altid bestå af n input og 4 ekstra til liften, ialt:     
+>V = n + 4       
 
-Udførselstiderne for "oprettelse af grafen", bergening af "den hustigste vej" og "den hurtigste tid" er altså i alle tilfælde:  
->Tmax = 3n+6
->Tmin = 2n+8
+Udførselstiderne for "oprettelse af grafen", bergening af "den hustigste vej" og "den hurtigste tid" er altså i alle tilfælde:     
+>Tmax = 3n+6    
+>Tmin = 2n+8    
