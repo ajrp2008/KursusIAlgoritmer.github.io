@@ -12,7 +12,8 @@ Løsningen:
 ## Del 2: Koden
 
 ## Del 3: Analyse af udførselstiden som funktion af n
-1. ***Oprettelse af kortet:*** Den del af løsningen, der har størst betydning for tiden det tager at indlæse kortet over pister og lift er oprettelsen af den rettede graf. Den rettede graf er implementeret som en "ajacency list" og oprettelsestiden er derfor propertionel med E+V, hvor E er antallet af kanter og V er antallet af knuder.
+Den del af løsningen, der har størst betydning for tiden det tager at indlæse kortet over pister og lift er oprettelsen af den rettede graf. Den rettede graf er implementeret som en "ajacency list". Både oprettelsestiden er derfor propertionelle med E+V, hvor E er antallet af kanter og V er antallet af knuder. Udskivning af den hurtigste vej og den tiden er imlementeret som brede-først-søgninger og derfor ligeledes en udførselstiden propertionelt med E+V. Derfor bergnes udførselstiden T kun en gang.
+
 Antallet af kanter består af: (1) De n-1 input kanter. (2) De 4 kanter, der oprettes til beskrive liften til toppen af bjerget (3) De kanter, der forbinder endestationer med liften. Kanterne fra enstationen til liften kan højest blive n-1 og minimum 1.
 I alt:
 >E_max = 2n + 2 eller E_min = n + 4    
@@ -21,10 +22,5 @@ Antallet af knuder vil altid bestå af de n input og de ekstra 4 til liften, ial
 >V = n + 4    
 
 Oprettelsestiden er derfor:  
->Topret_max = 3n+6 eller Topret_min = 2n+8
-
-2. ***Udskrivning af hurtigste vej:*** "bredde-først-søgningen" koster også tid propertionelt til E+V:
->Tvej_max = 3n+6 eller Tvej_min = 2n+8
-
-3. ***Beregning af hurtigste vej:*** Det samme her:
->Ttid_max = 3n+6 eller Ttid_min = 2n+8
+>Tmax = 3n+6
+>Tmin = 2n+8
