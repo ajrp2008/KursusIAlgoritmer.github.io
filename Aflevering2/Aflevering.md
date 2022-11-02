@@ -1,7 +1,7 @@
 # Obligatorisk aflevering 2 - deadline onsdag d19/10 eller mandag d.14/11
 
 ## Del 1: Valgt løsningsmetode til appen
-På en skibake ligger "n-1" nedadgående pister forbundet af "n" steder, der i nogle tilfælde forgrenner sig til nye pister. Ved ende-stationer, dvs. steder udgående forgreninger, er der mulighed for at tage en lift tilbage til bjergets top. Rejsetiden for hver pist er 1 minut. Rejsetiden for liften er 5 altid minutter.
+På en skibake ligger "n-1" nedadgående pister forbundet af "n" steder, der i nogle tilfælde forgrenner sig til nye pister. Ved ende-stationer, dvs. steder uden udgående forgreninger, er der mulighed for at tage en lift tilbage til bjergets top. Rejsetiden for hver pist er 1 minut. Rejsetiden for liften er 5 altid minutter.
 
 Løsningen:
 1. ***Oprettelse af kortet:*** Da alle pister er nedadgående vælges det at imlementere piste-systemet som en rettet graf. For hver enkelt endestation, dvs. kanter med udgrad 0, tilføjes en yderligere forbindelse af fire nye lift-knuder, der forbinder endestationen med toppen af bjerget. Denne forbindelse gør det ud for liften. Hvis hver kant svarer til en rejsetid på 1 minut, vil forbindelsen fra en endestation til toppen af bjerget dermed udgøre de beskrevne 5 minutter.     
